@@ -1,1 +1,1 @@
-Source code for Jeffrey Richter's Windows via C/C++ 5th edition.
+Source code for Jeffrey Richter's Windows via C/C++ 5th edition. The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
