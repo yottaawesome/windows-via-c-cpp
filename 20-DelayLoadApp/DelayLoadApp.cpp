@@ -210,8 +210,9 @@ FARPROC WINAPI DliHook(unsigned dliNotify, PDelayLoadInfo pdli) {
 
 
 // Tell __delayLoadHelper2 to call my hook function
-PfnDliHook __pfnDliNotifyHook2  = DliHook;
-PfnDliHook __pfnDliFailureHook2 = DliHook;
+const PfnDliHook __pfnDliNotifyHook2  = DliHook;
+
+const PfnDliHook __pfnDliFailureHook2 = DliHook;
 
 
 //////////////////////////////// End of File //////////////////////////////////

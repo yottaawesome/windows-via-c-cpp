@@ -6,3 +6,8 @@ Release/
 *.sdf
 *.ncb
 *.user
+ipch/
+*.db
+*.opendb
+*.db-shm
+*.db-wal
