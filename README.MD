@@ -10,7 +10,7 @@ The source code has been updated to use VS 2019 Community Edition, retargeted to
 
 ## Considerations
 
-All samples still function (as of the time of this writing), but some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/) or [POCO C++](https://pocoproject.org/) may be more appropriate.
+All samples still function (as of the time of this writing), but some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/), [Boost](https://www.boost.org/), or [POCO C++](https://pocoproject.org/) may be more appropriate.
 
 When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. Remember that this book was written pre-Windows 10 (which changed a lot about Windows), so some parts of it may no longer reflect Windows' actual internal functionality.
 
