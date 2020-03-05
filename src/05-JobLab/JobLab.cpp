@@ -528,6 +528,17 @@ INT_PTR WINAPI Dlg_Proc (HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 
 
 int WINAPI _tWinMain(HINSTANCE hinstExe, HINSTANCE, PTSTR pszCmdLine, int) {
+   /*
+   * NOTE
+   * If you're running on Windows 8 or later, you can disable the IsProcessInJob() check below.
+   * This is because the behaviour of assigning processes to jobs was changed in
+   * Windows 8 to allow processes to be reassigned. As such, this check is pointless and prevents the sample
+   * from functioning on Windows 8 and later, and so can be safely disabled. See the documentation on
+   * AssignProcessToJobObject() for additional information:
+   * https://docs.microsoft.com/en-us/windows/win32/api/jobapi2/nf-jobapi2-assignprocesstojobobject
+   *
+   * Vasilios, 05/03/2020
+   */
 
    // Check if we are not already associated with a job.
    // If this is the case, there is no way to switch to
