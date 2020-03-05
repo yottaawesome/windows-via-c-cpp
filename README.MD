@@ -14,6 +14,10 @@ All samples still function (as of the time of this writing), but some samples ma
 
 When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. Remember that this book was written pre-Windows 10 (which changed a lot about Windows), so some parts of it may no longer reflect Windows' actual internal functionality.
 
+### Considerations for specific samples
+
+* `JobLab`: On Windows 8 and above, the sample terminates early due to the initial `IsProcessInJob()` check detecting the process is in a job. This check can be disabled on Windows 8 and above, as the rules around processes and jobs were changed starting in Windows 8. See the [comment](https://github.com/yottaawesome/windows-via-c-cpp/blob/master/src/05-JobLab/JobLab.cpp) and this [issue](https://github.com/yottaawesome/windows-via-c-cpp/issues/1) for furher information.
+
 ## Additional resources
 
 * [Build desktop Windows apps using the Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
