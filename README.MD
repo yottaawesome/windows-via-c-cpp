@@ -4,6 +4,10 @@
 
 This is an unofficial source code repo for Jeffrey Richter and Christophe Nasarre's [Windows via C/C++ 5th edition](https://www.amazon.com/Windows-via-softcover-Developer-Reference/dp/0735663777). The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
 
+## Building
+
+You'll need Visual Studio 2022 with the Desktop development with C++ workload installed. Some samples use MFC, so you'll need to install the C++ MFC for latest v143 build tools (x86 & x64) Visual Studio component to build them (MFC is not installed by default in newer version of Visual Studio). You should then be able to open any of the VS solution files and immediately build them. It may be possible to open the VS solution files using older (but still modern) versions of Visual Studio, but I've not tested this.
+
 ## Changes
 
 The source code has been updated to use VS 2019 Community Edition, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. 
