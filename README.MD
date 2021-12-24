@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an unofficial source code repo for Jeffrey Richter and Christophe Nasarre's [Windows via C/C++ 5th edition](https://www.amazon.com/Windows-via-softcover-Developer-Reference/dp/0735663777). No representation is made that the source code belongs to me, it's simply reproduced here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of Jeffrey Richter and Christophe Nasarre.
+This is an unofficial source code repo for [Jeffrey Richter](https://twitter.com/jeffrichter) and [Christophe Nasarre's](https://mvp.microsoft.com/en-us/PublicProfile/5003325) [Windows via C/C++ 5th edition](https://www.amazon.com/Windows-via-softcover-Developer-Reference/dp/0735663777). No representation is made that the source code belongs to me, it's simply reproduced here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of Jeffrey Richter and Christophe Nasarre.
 
 ## Building
 
