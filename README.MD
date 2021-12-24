@@ -10,7 +10,7 @@ You'll need Visual Studio 2022 with the _Desktop development with C++_ workload 
 
 ## Changes
 
-The source code has been updated to use VS 2019 Community Edition, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. 
+The source code has been updated to use VS 2022 Community Edition, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. 
 
 ## Considerations
 
