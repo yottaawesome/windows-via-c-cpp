@@ -29,3 +29,4 @@ When using any Win32 code from this repo in production, always consult the [Wind
 * [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
 * [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl?view=msvc-160)
 * [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
+* [Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). Charles Petzold's legendary, if old, resource for Windows desktop applications. [Source code repo here](https://github.com/yottaawesome/programming-windows-5th-edition).
