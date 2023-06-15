@@ -16,7 +16,7 @@ The source code has been updated to use VS 2022 Community Edition, retargeted to
 
 All samples still function (as of the time of this writing), but some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/), [wxWidgets](https://www.wxwidgets.org/), [Boost](https://www.boost.org/), or [POCO C++](https://pocoproject.org/) may be more appropriate.
 
-When using any Win32 code from this repo in production, don't simply copy-paste code; consult the book to understand the code and also review the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. It's important to note that this book was written pre-Windows 10 (which changed a lot about Windows), so while it's still an invaluable resource to learn from, some parts of it may no longer reflect Windows' actual internal functionality.
+When using any Win32 code from this repo in production, don't simply copy-paste code; consult the book to understand the code and also review the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. It's important to note that this book was written pre-Windows 10 (which, alongside Windows 11, changed a lot about Windows), so while it's still an invaluable resource to learn from, some parts of it may no longer reflect Windows' actual internal functionality.
 
 ### Considerations for specific samples
 
