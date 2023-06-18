@@ -10,7 +10,7 @@ You'll need Visual Studio 2022 with the _Desktop development with C++_ workload 
 
 ## Changes
 
-The source code has been updated to use VS 2022 Community Edition, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. 
+The source code has been updated to use VS 2022 (any edition), retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. Older but still modern versions of VS may still be able to open the solution files, but I've not tested this.
 
 ## Considerations
 
@@ -29,6 +29,6 @@ When using any Win32 code from this repo in production, don't simply copy-paste 
 * [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
 * [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl?view=msvc-160)
 * [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
-* [Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). Charles Petzold's legendary, if old, resource for Windows desktop applications. [Source code repo here](https://github.com/yottaawesome/programming-windows-5th-edition).
+* [Charles Petzold's legendary Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). [Source code repo here](https://github.com/yottaawesome/programming-windows-5th-edition).
 * [Microsoft's classic Windows samples](https://github.com/microsoft/Windows-classic-samples)
 * [ZetCode's Windows API tutorial](https://zetcode.com/gui/winapi/)
