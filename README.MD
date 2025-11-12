@@ -6,7 +6,11 @@ This is an unofficial source code repo for Jeffrey Richter and Christophe Nasarr
 
 ## Changes
 
-The source code has been updated to use VS 2019 Community Edition, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits. 
+The source code has been updated to use Visual Studio 2026, retargeted to the latest Windows SDK, and to fix a compilation error. The original untouched VS files that came with the book's CD can be found in earlier commits.
+
+## Building
+
+You'll need Visual Studio 2026 with the the _Desktop development with C++_ workloads with the _C++ MFC for x64/x86 (Latest MSVC)_ component also selected.
 
 ## Considerations
 
