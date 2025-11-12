@@ -2,7 +2,11 @@
 
 ## Introduction
 
-This is an unofficial source code repo for Jeffrey Richter and Christophe Nasarre's [Windows via C/C++ 5th edition](https://www.amazon.com/Windows-via-softcover-Developer-Reference/dp/0735663777). The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
+This is an unofficial source code repo for [Jeffrey Richter](https://twitter.com/jeffrichter) and [Christophe Nasarre's](https://mvp.microsoft.com/en-us/PublicProfile/5003325) [Windows via C/C++ 5th edition](https://www.amazon.com/Windows-via-softcover-Developer-Reference/dp/0735663777). No representation is made that the source code belongs to me, it's simply reproduced here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of Jeffrey Richter and Christophe Nasarre.
+
+## Building
+
+You'll need Visual Studio 2022 with the _Desktop development with C++_ workload installed. Some samples use MFC, so you'll need to install the _C++ MFC for latest v143 build tools (x86 & x64)_ Visual Studio component to build them (MFC is not installed by default in newer versions of Visual Studio). You should then be able to open any of the VS solution files and build them. It may be possible to open the VS solution files using older (but still modern) versions of Visual Studio, but I've not tested this.
 
 ## Changes
 
@@ -14,9 +18,9 @@ You'll need Visual Studio 2026 with the the _Desktop development with C++_ workl
 
 ## Considerations
 
-All samples still function (as of the time of this writing), but some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/), [Boost](https://www.boost.org/), or [POCO C++](https://pocoproject.org/) may be more appropriate.
+All samples still function (as of the time of this writing), but some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [the C++ standard library](https://en.cppreference.com/w/cpp/header), [C++/WinRT](https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/), [wxWidgets](https://www.wxwidgets.org/), [Boost](https://www.boost.org/), or [POCO C++](https://pocoproject.org/) may be more appropriate.
 
-When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. Remember that this book was written pre-Windows 10 (which changed a lot about Windows), so some parts of it may no longer reflect Windows' actual internal functionality.
+When using any Win32 code from this repo in production, don't simply copy-paste code; consult the book to understand the code and also review the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes. It's important to note that this book was written pre-Windows 10 (which, alongside Windows 11, changed a lot about Windows), so while it's still an invaluable resource to learn from, some parts of it may no longer reflect Windows' actual internal functionality.
 
 ### Considerations for specific samples
 
@@ -29,3 +33,6 @@ When using any Win32 code from this repo in production, always consult the [Wind
 * [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
 * [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl?view=msvc-160)
 * [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
+* [Charles Petzold's legendary Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). [Source code repo here](https://github.com/yottaawesome/programming-windows-5th-edition).
+* [Microsoft's classic Windows samples](https://github.com/microsoft/Windows-classic-samples)
+* [ZetCode's Windows API tutorial](https://zetcode.com/gui/winapi/)
